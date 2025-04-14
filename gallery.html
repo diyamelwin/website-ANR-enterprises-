@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery</title>
+    <link rel="stylesheet" href="gallery.css" />
+  </head>
+
+  <body>
+    <!-- Header Section -->
+    <header class="header">
+      <!-- Top Header -->
+      <div class="header-top">
+        <span class="heading"
+          ><strong> All types of buttons and bits.</strong></span
+        >
+        <div class="header-contact">
+          <span
+            ><i class="fas fa-envelope"></i
+            ><strong> anandreddy@gmail.com</strong></span
+          >
+          <span
+            ><i class="fas fa-phone"></i><strong> +91 9392341991</strong></span
+          >
+        </div>
+      </div>
+
+      <!-- Navigation Bar -->
+      <nav class="navbar">
+        <div class="logo">
+          <img src="logo.png" alt="Company Logo" />
+        </div>
+        <a href="index.html"><strong>Home</strong></a>
+        <a href="about.html"><strong>About Us</strong></a>
+        <!-- <a href="product.html"><strong>Products</strong></a> -->
+        <a href="gallery.html" class="active"><strong>Gallery</strong></a>
+        <a href="contact.html"><strong>Contact Us</strong></a>
+        <select class="language-selector">
+          <strong>
+            <option value="en">Select Language</option>
+            <option value="en">English</option>
+            <option value="hi">Hindi</option></strong
+          >
+        </select>
+      </nav>
+    </header>
+
+    <section class="gallery-header">
+      <div class="gallery-image">
+        <img src="gallery.jpg" alt="Gallery" />
+        <div class="gallery">
+          <h1>Gallery</h1>
+          <br />
+          <div class="breadcrumb"><a href="index.html">Home</a> > Gallery</div>
+        </div>
+      </div>
+    </section>
+
+    <main class="content">
+      <div class="toggle-buttons">
+        <button class="active" onclick="showGallery('photos')">Photos</button>
+        <button class="active" onclick="showGallery('videos')">Videos</button>
+      </div>
+      <div id="photos" class="grid">
+        <img src="1.jpeg" alt="Image 1" />
+        <img src="2.jpeg" alt="Image 2" />
+        <img src="3.jpeg" alt="Image 3" />
+        <img src="4.jpeg" alt="Image 4" />
+        <img src="5.jpeg" alt="Image 5" />
+        <img src="6.jpeg" alt="Image 6" />
+        <img src="7.jpeg" alt="Image 7" />
+        <img src="8.jpeg" alt="Image 8" />
+      </div>
+      <div id="videos" class="grid" style="display: none">
+        <img src="video1-thumbnail.jpg" alt="Video 1" />
+        <img src="video2-thumbnail.jpg" alt="Video 2" />
+      </div>
+    </main>
+
+    <!-- footer -->
+    <footer>
+      <!-- Footer Content Container -->
+      <div class="footer-container">
+        <!-- Logo and Description Section -->
+        <div class="footer-logo-description">
+          <img src="path/to/logo.png" alt="Logo" class="footer-logo" />
+          <h4>
+            ANR, which is a proven name in rock drilling tools in India, is a
+            leading global provider of rock drilling tools for construction,
+            mining and water well segments.
+          </h4>
+        </div>
+
+        <!-- Quick Links Section -->
+        <div class="quick-links-footer">
+          <h3>Quick Links</h3>
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <!-- <li><a href="product.html">Products</a></li> -->
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ol>
+        </div>
+
+        <!-- Contact Section -->
+        <div class="contact-footer">
+          <h3>Contact</h3>
+          <p>
+            <i class="fas fa-map-marker-alt"></i> Plot No. 1-8-27, Kamala
+            Nagar,<br />
+            Kushaiguda, Hyderabad - 500062
+          </p>
+          <p>
+            <i class="fas fa-envelope"></i>
+            <a href="mailto:anandreddy@gmail.com">anandreddy@gmail.com</a>
+          </p>
+          <p>
+            <i class="fas fa-phone"></i>
+            <a href="tel:+919392341991">+91 9392341991</a>
+          </p>
+        </div>
+
+        <!-- Embedded Map Section -->
+        <div class="map-footer">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3805.705265467145!2d78.56922737498726!3d17.4738153834282!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9c7955550cdd%3A0xfef61d8358952f53!2s1-67%2C%20Kamala%20Nagar%2C%20ECIL%2C%20Laxmi%20Garden%2C%20Medchal%2C%20Secunderabad%2C%20Telangana%20500062!5e0!3m2!1sen!2sin!4v1732021389224!5m2!1sen!2sin"
+            width="300"
+            height="200"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          >
+          </iframe>
+        </div>
+      </div>
+
+      <!-- Copyright Section -->
+      <p>&copy; 2024 ANR Enterprisers. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

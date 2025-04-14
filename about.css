@@ -1,0 +1,233 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #090909;
+}
+
+/* Header */
+.header {
+  background-color: #8696a8;
+  color: white;
+}
+
+.heading {
+  background-color: #8696a8;
+  color: #333;
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  height: 40px;
+}
+
+.header-top .header-contact span {
+  margin-right: 15px;
+  font-size: 16px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.header-top .header-contact i {
+  margin-right: 5px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  padding: 10px 20px;
+  height: 60px;
+}
+
+.navbar a {
+  color: black;
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 16px;
+}
+
+.navbar a.active {
+  border-bottom: 2px solid white;
+}
+
+.navbar .language-selector {
+  padding: 5px;
+  border: none;
+  background: white;
+  color: black;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+.about-header {
+  background: none;
+  color: white;
+  text-align: left;
+  padding: 0;
+  position: relative;
+  height: 50vh;
+}
+
+.about-header .about-image {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.about-header .about-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.about-header .about-image h1 {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translateY(-50%);
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.about-content {
+  padding: 20px;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #333;
+}
+.about-content p {
+  margin-bottom: 15px;
+}
+
+.about-header .breadcrumb {
+  position: absolute;
+  top: 80%;
+  left: 10%;
+  font-size: 1rem;
+  color: #ddd;
+}
+
+.about-header .breadcrumb a {
+  color: white;
+  text-decoration: underline;
+}
+
+.about-header .breadcrumb a:hover {
+  text-decoration: none;
+}
+
+/* Footer Styling */
+footer {
+  background-color: #101010;
+  color: #fff;
+  padding: 15px; /* Reduced padding */
+  text-align: center;
+  font-size: 12px; /* Reduced font size */
+  margin-top: 20px; /* Smaller margin at the top */
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap; /* Allows wrapping on smaller screens */
+  gap: 10px; /* Reduced gap between sections */
+}
+
+.footer-logo-description {
+  flex: 1;
+  min-width: 200px; /* Reduced minimum width */
+  max-width: 300px; /* Reduced maximum width */
+  line-height: 1.4; /* Slightly tighter line spacing */
+}
+
+.footer-logo {
+  width: 120px; /* Smaller logo size */
+  height: auto;
+  margin-bottom: 5px; /* Reduced bottom margin */
+}
+
+footer h3 {
+  margin-top: 10px; /* Reduced top margin */
+  font-size: 16px; /* Smaller heading font size */
+  color: #fff;
+}
+
+footer h4 {
+  font-size: 14px; /* Smaller description font size */
+  margin-top: 5px; /* Reduced spacing */
+  color: #ccc;
+}
+
+.quick-links-footer ol {
+  list-style: none;
+  padding: 0;
+}
+
+.quick-links-footer li {
+  margin: 5px 0; /* Reduced spacing between links */
+}
+
+.quick-links-footer a {
+  color: white;
+  text-decoration: none;
+  font-size: 12px; /* Reduced font size */
+}
+
+.quick-links-footer a:hover {
+  text-decoration: underline;
+}
+
+.contact-footer p {
+  flex: 1;
+  font-size: 12px; /* Reduced font size */
+  color: #ccc;
+}
+
+.contact-footer a {
+  color: white;
+  text-decoration: none;
+  font-size: 12px; /* Reduced font size */
+}
+
+.contact-footer a:hover {
+  text-decoration: underline;
+}
+
+.map-footer iframe {
+  width: 100%;
+  max-width: 250px; /* Reduced width */
+  height: 150px; /* Reduced height */
+  border: 0;
+  margin-top: 5px; /* Reduced top margin */
+}
+
+footer p {
+  font-size: 10px; /* Smaller copyright text */
+  color: #ccc;
+  margin-top: 10px; /* Reduced top margin */
+}
+
+.footer-container h3 {
+  text-decoration: underline;
+  text-decoration-color: #a6acb3;
+  text-decoration-thickness: 1.5px; /* Reduced thickness of underline */
+}
+
+.footer-container h3:hover {
+  text-decoration-color: #f9f6f6;
+}
